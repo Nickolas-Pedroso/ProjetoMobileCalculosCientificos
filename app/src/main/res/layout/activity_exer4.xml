@@ -38,7 +38,7 @@
         android:layout_marginTop="93dp"
         android:backgroundTint="#FFF8F8"
         android:ems="10"
-        android:hint="Informe a Temperatura"
+        android:hint="Info. Temperatura em Fº"
         android:inputType="text"
         android:textColor="#F0E8E8"
         android:textColorHint="#E9DADA"
@@ -54,9 +54,21 @@
         android:layout_marginTop="57dp"
         android:text="Resultado"
         android:textColor="#FBF5F5"
-        android:textSize="24sp"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalcEx4" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="178dp"
+        android:text="C = (5 * (F-32) / 9)"
+        android:textColor="#DED8D8"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultEx4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

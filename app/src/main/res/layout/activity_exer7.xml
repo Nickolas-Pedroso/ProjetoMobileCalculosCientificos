@@ -73,8 +73,21 @@
         android:id="@+id/txtResultEx7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
         android:text="Resultado"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="510dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcEx7" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:text="v^2=v0^2​+2*a*Δs"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultEx7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
